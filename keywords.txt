@@ -1,0 +1,43 @@
+#######################################
+# class (KEYWORD1)
+#######################################
+
+i2cRGB	KEYWORD1
+RGBDriver	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+rgb	KEYWORD2
+off	KEYWORD2
+color	KEYWORD2
+begin	KEYWORD2
+allrgb	KEYWORD2
+allcolor	KEYWORD2
+chan	KEYWORD2
+clear	KEYWORD2
+crossfadeCOLOR	KEYWORD2
+crossfadeBUTTON	KEYWORD2
+crossfadeRGB	KEYWORD2
+fadereset	KEYWORD2
+
+getPWM	KEYWORD2
+setPWMFreq	KEYWORD2
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
+
+complete	LITERAL1
+black	LITERAL1
+white	LITERAL1
+green	LITERAL1
+cyan	LITERAL1
+blue	LITERAL1
+purple	LITERAL1
+magenta	LITERAL1
+red	LITERAL1
+orange	LITERAL1
+yellow	LITERAL1
