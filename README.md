@@ -28,3 +28,6 @@ Pick one up today in the adafruit shop!
  In the video I show 2 PCA9685 modules with 7 LEDs as this is something I'm building for someone, and tehy need more than the 5 RGB channels that one PCA9685 can drive
  
  Considering creating custom PCB's for people to use, along with support for RGBW (4 channels per strip) and RGB - color temperature white (5 channels per strip)
+
+
+Youtube examples video: https://youtu.be/Lv99Dfz5FIw
