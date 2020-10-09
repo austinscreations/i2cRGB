@@ -111,6 +111,7 @@ public:
   void off(int c);
   void fadereset(int c);
   void rgb(int c,uint8_t r,uint8_t g,uint8_t b);
+  void rgb16(int c,uint16_t r,uint16_t g,uint16_t b);
   void color(int c, int color[3]);
   void allrgb(uint8_t r,uint8_t g,uint8_t b,int d);
   void allcolor(int color[3],int d);
