@@ -10,6 +10,7 @@ RGBDriver	KEYWORD1
 #######################################
 
 rgb	KEYWORD2
+rgb16 KEYWORD2
 off	KEYWORD2
 color	KEYWORD2
 begin	KEYWORD2
