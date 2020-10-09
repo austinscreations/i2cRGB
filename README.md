@@ -31,3 +31,6 @@ Pick one up today in the adafruit shop!
 
 
 Youtube examples video: https://youtu.be/Lv99Dfz5FIw
+
+2020-10-09 - added rgb16(channel #, R,G,B) - this fuctions works liek the RGB function but accepts teh full 16 bit number tah tteh PWM drive can run - instead of using the 
+map functions. (0-4095 must be used for full color range vs 0-255) variables are saved for the crossfades to still work correctly.
