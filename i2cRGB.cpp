@@ -174,6 +174,23 @@ grnVal[c] = g;
 bluVal[c] = b;
 }
 
+void RGBDriver::rgb16(int c,uint16_t r,uint16_t g,uint16_t b){
+setPWM(0+(3*c),0,r); //red
+setPWM(1+(3*c),0,g); //green
+setPWM(2+(3*c),0,b); //blue
+
+ R = map(r,0,4095,0,255); // changes from a 16 bit value to an 8 bit value for color fade variables
+ G = map(g,0,4095,0,255);
+ B = map(b,0,4095,0,255);
+
+prevR[c] = R;
+prevG[c] = G;
+prevB[c] = B;
+redVal[c] = R;
+grnVal[c] = G;
+bluVal[c] = B;
+}
+
 void RGBDriver::color(int c, int color[3]) {
   int r = color[0]; // more varibles to extract the array numbers
   int g = color[1];
